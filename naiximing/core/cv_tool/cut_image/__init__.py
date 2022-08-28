@@ -1,0 +1,1 @@
+name = "cut_image"
