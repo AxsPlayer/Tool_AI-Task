@@ -5,7 +5,7 @@ with open('README.md', 'r', encoding='utf-8') as fh:
 
 setuptools.setup(
     name="naiximing",
-    version="0.0.1",
+    version="0.0.2",
     author="kexi",
     author_email="498100059@qq.com",
     description="各种有趣的工具合集.",
