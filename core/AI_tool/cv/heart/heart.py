@@ -8,7 +8,7 @@ CANVAS_HEIGHT = 480  # 画布的高
 CANVAS_CENTER_X = CANVAS_WIDTH / 2  # 画布中心的X轴坐标
 CANVAS_CENTER_Y = CANVAS_HEIGHT / 2  # 画布中心的Y轴坐标
 IMAGE_ENLARGE = 11  # 放大比例
-HEART_COLOR = "#ff2121"  # 心的颜色，这个是中国红
+HEART_COLOR = "#e86184"  # "#ff2121"  # 心的颜色，这个是中国红
 
 
 def heart_function(t, shrink_ratio: float = IMAGE_ENLARGE):
@@ -176,7 +176,7 @@ def draw(main: Tk, render_canvas: Canvas, render_heart: Heart, render_frame=0):
 
 if __name__ == '__main__':
     root = Tk()  # 一个Tk
-    canvas = Canvas(root, bg='black', height=CANVAS_HEIGHT, width=CANVAS_WIDTH)
+    canvas = Canvas(root, bg='white', height=CANVAS_HEIGHT, width=CANVAS_WIDTH)
     canvas.pack()
     heart = Heart()  # 心
     draw(root, canvas, heart)  # 开始画画~
